@@ -12,12 +12,14 @@ legendTopAutostart = "запускається автоматично"
 legendTopName = "заряджання з підтримкою батареї"
 legendTopSubline = "без перебоїв"
 modalTitle = "Налаштування батареї"
+control = "Контроль батареї"
 
 [batterySettings.bufferStart]
 full = "коли майже повний"
 low = "коли трохи повний"
 medium = "коли наполовину повна"
 never = "тільки з достатнім надлишком"
+above = "коли вище {soc}"
 
 [config]
 
@@ -41,7 +43,7 @@ validate = "перевірити"
 
 [config.vehicle]
 cancel = "Скасувати"
-delete = "Видалити транспорт"
+delete = "Видалити"
 generic = "Інші інтеграції"
 offline = "Загальний транспорт"
 online = "Транспорт з онлайн API"
@@ -117,8 +119,8 @@ blog = "Блог"
 docs = "Документація"
 github = "GitHub"
 login = "Вхід до транспортного засобу"
-needHelp = "Потрібна допомога?"
-sessions = "Сеанси зарядки"
+needHelp = "Потрібна Допомога?"
+sessions = "Сеанси Зарядки"
 settings = "Налаштування"
 
 [help]
@@ -175,7 +177,7 @@ price = "Σ Ціна"
 solar = "Сонячна"
 
 [main.loadpointSettings]
-currents = "Струм зарядки"
+currents = "Струм Зарядки"
 default = "за замовчуванням"
 disclaimerHint = "Примітка:"
 title = "Налаштування {0}"
@@ -340,7 +342,7 @@ allVehicles = "всі транспортні засоби"
 filter = "Фільтр"
 
 [settings]
-title = "Налаштування"
+title = "Загальні налаштування"
 
 [settings.gridDetails]
 co2 = "CO₂"
@@ -402,3 +404,18 @@ title = "Помилка запуску"
 cancel = "Скасувати"
 template = "Виробник"
 test = "Тест"
+
+
+[config.battery]
+titleEdit = "Редагувати лічильник батареї"
+titleAdd = "Додати лічильник батареї"
+
+[config.deviceValue]
+energy = "Енергія"
+current = "Cтрум"
+capacity = "Ємність"
+chargeStatus = "Статус"
+enabled = "Ввімкнено"
+phaseCurrents = "Cтрум L1..L3"
+phasePowers = "Потужність L1..L3"
+power = "Потужність"
